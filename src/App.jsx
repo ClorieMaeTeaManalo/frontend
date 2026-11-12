@@ -1,17 +1,12 @@
 import './style.css';
-import HeaderContiner from "./components/HeaderContainer";
-import FormContiner from "/components/FormContainer";
-import ListContiner from "./components/ListContainer";
-
+import StudentPage from './pages/StudentPage.jsx';
 function App() {
 
   return (
-    <div>
-      <HeaderContiner />
-      <FormContiner />
-      <ListContiner />
-    </div>
+    <>
+    <StudentPage />
+    </>
   );
-};
+}
 
-export default App;
+export default App
